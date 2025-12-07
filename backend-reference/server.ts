@@ -2,8 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { webhookHandler } from './webhookHandler.ts';
-import { formRouter } from './routes.ts';
+import { webhookHandler } from './webhookHandler';
+import { formRouter } from './routes';
 
 dotenv.config();
 

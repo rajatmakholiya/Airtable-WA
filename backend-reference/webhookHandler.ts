@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { FormResponseModel } from './models.ts';
+import { FormResponseModel } from './models';
 
 export const webhookHandler = async (req: Request, res: Response) => {
   const { payloads, cursor } = req.body;

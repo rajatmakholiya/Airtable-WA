@@ -1,7 +1,7 @@
 import express from 'express';
 import type { Request, Response } from 'express';
-import { FormModel, FormResponseModel } from './models.ts';
-import { getAirtableBases, getAirtableSchema, createAirtableRecord } from './airtableService.ts';
+import { FormModel, FormResponseModel } from './models';
+import { getAirtableBases, getAirtableSchema, createAirtableRecord } from './airtableService';
 
 export const formRouter = express.Router();
 
