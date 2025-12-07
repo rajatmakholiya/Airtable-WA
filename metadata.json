@@ -1,0 +1,5 @@
+{
+  "name": "AirForm Sync",
+  "description": "A full-stack capable form builder that syncs with Airtable. Features conditional logic, OAuth simulation, and response tracking.",
+  "requestFramePermissions": []
+}
